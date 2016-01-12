@@ -3,7 +3,7 @@ $(document).ready(function(){
 	// Cache the Window object
 	$window = $(window);
                 
-   $('section[data-type="background"]').each(function(){
+   $('header[data-type="background"]').each(function(){
      var $bgobj = $(this); // assigning the object
                     
       $(window).scroll(function() {
@@ -28,4 +28,5 @@ $(document).ready(function(){
  */
 
 document.createElement("article");
+document.createElement("header");
 document.createElement("section");

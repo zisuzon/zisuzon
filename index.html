@@ -7,30 +7,33 @@
 <link type="text/css" rel="stylesheet" href="stylesheet/w3.css">
 <link type="text/css" rel="stylesheet" href="stylesheet/w3-color.css">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<link type="text/css" rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+<link type="text/css" rel="stylesheet" href="plugins/animate.css">
+<link type="text/css" rel="stylesheet" href="plugins/hover.css">
+<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="javascript/navbar.js"></script>
 <script src="javascript/paralax.js"></script>
 <title>ZIS</title>
 </head>
 
-<body>
-<section id="menubars"> 
+<body class="">
+<section id="menubars" class=""> 
   <!--This part is upper navbar-->
-  <div class="w3-topnav w3-theme-d4 w3-large" id="main_nav">
-      <a href="#" class="material-icons w3-opennav w3-left" onclick="w3_open()"><i class="fa fa-list"></i></a>
-      <a href="#" class="w3-left" >ZISuzon</a>
-      <a href="#" target="_blank" class="w3-right nav-right">Blog</a>
-      <a href="#" class="w3-right nav-right">Contact</a>
-      <a href="#" class="w3-right nav-right">Works</a>
-      <a href="#" class="w3-right nav-right">About</a>
+  <div class="w3-topnav w3-theme-d4 w3-large " id="main_nav"> 
+   <a href="#" class="material-icons w3-opennav w3-left" onclick="w3_open()"><i class="fa fa-list"></i></a> 
+   <a href="#" class="w3-left " >ZISuzon</a> 
+   <a href="#" target="_blank" class="w3-right nav-right">Blog</a> 
+   <a href="#" class="w3-right nav-right">Contact</a> 
+   <a href="#" class="w3-right nav-right">Works</a> 
+   <a href="#" class="w3-right nav-right">About</a> 
   </div>
   <div class="w3-large"><!--This part is left side navbar!-->
-    <nav class="w3-sidenav w3-theme-l2 w3-card-2" style="display:none">
-        <a href="javascript:void(0)"
+    <nav class="w3-sidenav w3-theme-l2 w3-card-2 " style="display:none"> <a href="javascript:void(0)"
   onclick="w3_close()"
   class="w3-closenav w3-large">Close ×</a>
-        <hr>
-        <a href="#">Topic 1</a>
+      <hr>
+      <a href="#">Topic 1</a>
       <hr>
       <a href="#">Topic 2</a>
       <hr>
@@ -43,27 +46,188 @@
     </nav>
   </div>
 </section>
-<section id="header" data-type="background" data-speed="10">
-	<div id="welcome" class="layer ">
- 	 <h1 class="w3-center"><strong>WELCOME</strong> TO MY LITTLE C<img src="img/cave.png" id="cave_img">VE!</h1>
+<header id="header" data-type="background" data-speed="10">
+  <div class="container">
+    <div id="welcome" class="layer">
+      <p id="welcome_msg" class="w3-center"><strong>WELCOME</strong> TO MY LITTLE C<img src="img/cave.png" id="cave_img">VE!</p>
+      <p id="slogan">Seeking a challenging carrier by giving all my skills to my profession and awaiting for an initiative role. Creativity is my passion. </p>
+      <a id="down_icon" href="#" class="w3-btn-floating-large w3-center"><i class="fa fa-angle-double-down w3-center"></i></a> </div>
+  </div>
+</header>
+<article id="about" class="container-fluid" >
+  <div id="about_me_bg" class="w3-image row">
+    <div id="about_me_info" class="w3-content">
+      <p id="about_title">A little about...</p>
+      <hr id="about_hr">
+      <p id="about_description" class="w3-content">Hi!
+        I am Zahidul Islam Suzon. I passed my BSc. on October, 2015. Currently I am jobless and useless. I love to design webpages and develop them. <br>
+        <br>
+        I am skilled on <strong>HTML5, CSS3, PHP. Codeigniter MVC, W3.CSS, jQuery, Javascript, Bootstrap</strong> etc.<br>
+        <br>
+        Its always exciting to learn new technologies related to web development. Creating web application by writing some lines of code gives me chills. <br>
+        <br>
+        Photography is one of my hobbies. Ya I love to sleep.</p>
     </div>
+  </div>
+</article>
+<section id="stylish_border">
+<section>
+<section id="works" >
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="works_title"><strong>My Works</strong></p>
+        <hr id="work_hr">
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInLeft">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInLeft">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInRight">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInRight">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInLeft">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInLeft">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInRight">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInRight">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInLeft">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInLeft">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInRight">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-xs-6 thumb wow fadeInRight">
+      <div class="hovereffect thumbnail"> <img class="img-responsive" src="http://placehold.it/350x250" alt="">
+        <div class="overlay">
+          <h2>Effect 13</h2>
+          <p> <a href="#">LINK HERE</a> </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--========================================--> 
 </section>
-<section id="about">
-	<div id="welcome">
- 	 <h1>Hello World</h1>
-    </div>
+<section id="what_friends_think" >
+<div class="container">
+<p class="works_title"><strong>What My <span class="w3-tag w3-yellow">Friends</span> Say About Me?</strong></p>
+<div class="row">
+  <div class="col-md-4 right_commnet_img"><img class="img-circle img-responsive" src="img/people/rubel vai.jpg"></div>
+  <div class="col-md-8 right_comment">.col-md-8</div>
+</div>
+<div class="row">
+  <div class="col-md-8 left_commnet">Zis is a good boy. Zis is smart, be like zis!</div>
+  <div class="col-md-4 left_commnet_img"><img class="img-circle img-responsive" src="img/people/Sir.jpg"></div>
+</div>
+<div class="row">
+  <div class="col-md-4 right_commnet_img"><img class="img-circle img-responsive" src="img/people/rubel vai.jpg"></div>
+  <div class="col-md-8 right_comment">sdfsdfsdf</div>
+</div>
+<div class="row">
+  <div class="col-md-8 left_commnet">Zis is a good boy. Zis is smart, be like zis!</div>
+  <div class="col-md-4 left_commnet_img"><img class="img-circle img-responsive" src="img/people/Sir.jpg"></div>
+</div>
+
+</div>
 </section>
 
-
-<section id="works" data-type="background" data-speed="10">
-	<div id="welcome">
- 	 <h1>Hello World</h1>
+<section id="contacts" >
+  <div class="layer_for_works">
+    <div class="row" id="form_divs">
+      <div class="col-xs-6"></div>
+      <div class="col-xs-6">
+        <h2>What's up?</h2>
+        <form class="w3-container " method="post" action="">
+          <div class="w3-group">
+            <input class="w3-input inputfield" name="name" type="text" style="width:90%" required>
+            <label class="w3-label w3-text-black-opacity inputlabel">Name</label>
+          </div>
+          <div class="w3-group">
+            <input class="w3-input inputfield" name="email" type="text" style="width:90%" required>
+            <label class="w3-label w3-text-black-opacity inputlabel">Email</label>
+          </div>
+          <div class="w3-group">
+            <textarea class="w3-input inputfield" style="width:90%" required name="msg"></textarea>
+            <label class="w3-label w3-text-black-opacity inputlabel">Subject</label>
+          </div>
+          <div class="w3-group">
+            <input type="submit" name="contact" value="Send" class="w3-btn" />
+          </div>
+        </form>
+      </div>
     </div>
-</section>
-<section id="contacts" data-type="background" data-speed="10">
-	<div id="welcome">
- 	 <h1>Hello World</h1>
-    </div>
+  </div>
 </section>
 <section id="footer_part" >
   <footer id="footer" class="w3-theme-d4 w3-center">
@@ -73,4 +237,8 @@
 </section>
 </body>
 </html>
+<script src="plugins/wow.js"></script>
+<script>
+ new WOW().init();
+</script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
